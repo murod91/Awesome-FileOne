@@ -1,0 +1,65 @@
+Body {
+  background-color: #d5eeff;
+  font-family: "Roboto", sans-serif;
+  font-weight: light;
+}
+h1 {
+  color: #007cb9;
+  font-size: 60px;
+  font-weight: bold;
+}
+.city {
+  color: #007cb9;
+  font-size: 40px;
+  position: fixed;
+  left: 250px;
+  top: 250px;
+}
+.city-date {
+  color: #007cb9;
+  font-size: 40px;
+  position: fixed;
+  left: 250px;
+  top: 300px;
+}
+.city-time {
+  color: #007cb9;
+  font-size: 40px;
+  position: fixed;
+  left: 250px;
+  top: 400px;
+}
+.temp {
+  color: #007cb9;
+  font-size: 40px;
+  position: fixed;
+  left: 250px;
+  top: 550px;
+}
+.week {
+  position: fixed;
+  left: 150px;
+  bottom: 60px;
+}
+.sun-icon {
+  color: #fecd51;
+  font-size: 60px;
+}
+.sun-symbol {
+  color: #fecd51;
+  font-size: 270px;
+  position: fixed;
+  right: 250px;
+}
+.highlight {
+  position: fixed;
+  right: 400px;
+  bottom: 250px;
+}
+.nav {
+  color: #007cb9;
+  position: fixed;
+  left: 150px;
+  bottom: 0;
+  font-weight: bold;
+}
