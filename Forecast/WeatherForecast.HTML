@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <a href="https://www.netlify.com"></a>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/7336162477.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>
+        Weather Forecast
+      </h1>
+       <form id="search-form">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"></label>
+          <input
+            type="search"
+            class="form-control"
+            aria-describedby="searchHelp"
+            placeholder="Search by City, State or ZIP"
+            id="city-input"
+            id="search-text-input"
+
+          /> 
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+      <i class="fas fa-cloud-sun sun-symbol"></i>
+<h2 class="city"  id="city-place"> Beaverton OR </h2> <br /> 
+<p class="search-location"> </p>
+<h3 class= "city-time" id="current-time"> </h3> <br /> 
+<h4 class="city-date" id="current-date"> <br /> 06/22/2021</h3>
+<h4 class="temp" id="city-temp"> High 80° <br /> Mostly clear </h4>
+     <div class="highlight">
+      <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"> <strong> Today's Highlight</strong> </h5>
+            <p class="card-text">Make sure you stay in the shade and wear sunscreen. High UV has been forecasted.</p>
+          </div>
+          </div>
+        </div>
+      <div class="week">
+      <div class="row">
+        <div class="col-2">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><strong> Mon 05/30 </strong></h5>
+              <i class="fas fa-cloud-sun sun-icon"></i>
+              <p class="card-text">
+                High 80°F <br />
+                Low 59°F
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><strong> Tues 05/31 </strong></h5>
+              <i class="fas fa-cloud-sun sun-icon"></i>
+              <p class="card-text">
+                High 78°F <br />
+                Low 56°F
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><strong> Wed 06/01 </strong></h5>
+              <i class="fas fa-sun sun-icon"></i>
+              <p class="card-text">
+                High 81°F <br />
+                Low 63°F
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><strong> Thur 06/02 </strong></h5>
+              <i class="fas fa-sun sun-icon"></i>
+              <p class="card-text">
+                High 85°F <br />
+                Low 60°F
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><strong> Fri 06/03 </strong></h5>
+              <i class="fas fa-sun sun-icon"></i>
+              <p class="card-text">
+                High 88°F <br />
+                Low 64°F
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Today</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Forecast</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Percipitation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sun & Moon</a>
+        </li>
+      </ul>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
